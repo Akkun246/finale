@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    height: 270px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color:rgb(177, 246, 246);
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 90px;
+    text-align: center;
+    background-color: antiquewhite;
+    font: white;
+}
+
+.frame-1 {
+    background-image: url("/Final_Project/IMAGES/frame/20231015_095107.jpg");
+}
+
+.frame-2 {
+    background-image: url("/Final_Project/IMAGES/frame/20231015_100020.jpg")
+}
+
+.frame-3 {
+    background-image: url("/Final_Project/IMAGES/frame/IMG20231013172939.jpg");
+}
+
+.frame-4 {
+    background-image: url("/Final_Project/IMAGES/frame/IMG20231013173421.jpg");
+}
+
+.frame-5 {
+    background-image: url("/Final_Project/IMAGES/frame/IMG20231013173806.jpg");
+}
+
+.fork-1 {
+    background-image: url("/Final_Project/IMAGES/fork/20230724_170911.jpg");
+}
+
+.fork-2 {
+    background-image: url("/Final_Project/IMAGES/fork/20230724_170941.jpg");
+}
+
+.fork-3 {
+    background-image: url("/Final_Project/IMAGES/fork/20230724_171011.jpg");
+}
+
+.fork-4 {
+    background-image: url("/Final_Project/IMAGES/fork/20230724_171145.jpg");
+}
+
+.fork-5 {
+    background-image: url("/Final_Project/IMAGES/fork/20230724_171231.jpg");
+}
+
+.wheelset-1 {
+    background-image: url("/Final_Project/IMAGES/wheelset/20230723_092157.jpg");
+}
+
+.wheelset-2 {
+    background-image: url("/Final_Project/IMAGES/wheelset/20230723_093243.jpg");
+}
+
+.wheelset-3 {
+    background-image: url("/Final_Project/IMAGES/wheelset/20230724_134321.jpg");
+}
+
+.upkit-1 {
+    background-image: url("/Final_Project/IMAGES/upkit/20231013_194052.jpg");
+}
+
+.upkit-2 {
+    background-image: url("/Final_Project/IMAGES/upkit/20231013_194122.jpg");
+}
+
+.upkit-3 {
+    background-image: url("/Final_Project/IMAGES/upkit/20231013_194144.jpg");
+}
+
+.crankset-1 {
+    background-image: url("/Final_Project/IMAGES/crankset/20230722_122411.jpg");
+}
+
+.crankset-2 {
+    background-image: url("/Final_Project/IMAGES/crankset/20230724_135632.jpg");
+}
+
+.crankset-3 {
+    background-image: url("/Final_Project/IMAGES/crankset/20230728_120501.jpg");
+}
+
+.crankset-4 {
+    background-image: url("/Final_Project/IMAGES/crankset/20230728_120537.jpg");
+}
+
+.crankset-5 {
+    background-image: url("/Final_Project/IMAGES/crankset/20230728_120613.jpg");
+}
+
+.rd-1 {
+    background-image: url("/Final_Project/IMAGES/rd/20231013_193116.jpg");
+}
+
+.rd-2 {
+    background-image: url("/Final_Project/IMAGES/rd/20231013_193236.jpg");
+}
+
+.rd-3 {
+    background-image: url("/Final_Project/IMAGES/rd/20231013_194220.jpg");
+}
+
+.tire-1 {
+    background-image: url("/Final_Project/IMAGES/wheels/20230716_143420.jpg");
+}
+
+.tire-2 {
+    background-image: url("/Final_Project/IMAGES/wheels/20230907_113253.jpg");
+}
+
+.tire-3 {
+    background-image: url("/Final_Project/IMAGES/wheels/20231013_193919.jpg");
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: rgb(27, 27, 27);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 80px;
+    }
+    
+    .card {
+        background-color: white;
+        width: 350px;
+        height: 430px;
+        margin: 10px;
+    }
+
+    .card h2 {
+        padding-left: 12px;
+    }
+
+    .card p {
+        padding-left: 12px;
+    }
+    
+    .card-image {
+        background-color:rgb(177, 246, 246);
+        height: 300px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background: rgb(27, 27, 27);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 80px;
+    }
+    
+    .card {
+        background-color: white;
+        width: 200px;
+        height: 270px;
+        margin: 10px;
+    }
+
+    .card h2 {
+        padding-left: 12px;
+        font-size: 15px;
+    }
+
+    .card p {
+        padding-left: 12px;
+        font-size: 12px;
+    }
+    
+    .card-image {
+        background-color:rgb(177, 246, 246);
+        height: 170px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: rgb(27, 27, 27);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 80px;
+    }
+    
+    .card {
+        background-color: white;
+        width: 200px;
+        height: 270px;
+        margin: 10px;
+    }
+
+    .card h2 {
+        padding-left: 12px;
+        font-size: 15px;
+    }
+
+    .card p {
+        padding-left: 12px;
+        font-size: 12px;
+    }
+    
+    .card-image {
+        background-color:rgb(177, 246, 246);
+        height: 170px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.card {
+    justify-content: center;
+    background: white;
+    width: 630px;
+    height: 350px;
+    margin: 10px;
+}
+
+.card h1 {
+    padding: 10px;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.card h4 {
+    padding-left: 30px;
+}
+
+.card h5 {
+    padding-left: 40px;
+}
+    
+.card p {
+    padding: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: rgb(27, 27, 27);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 80px;
+    }
+    
+    .card {
+        background: whitesmoke;
+        width: 80%;
+        height: 650px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:768px) {
+    body {
+        background: rgb(27, 27, 27);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 80px;
+    }
+    
+    .card {
+        background: whitesmoke;
+        width: 80%;
+        height: 500px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 250px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: rgb(27, 27, 27);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 80px;
+    }
+    
+    .card {
+        background: whitesmoke;
+        width: 80%;
+        height: 480px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 260px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+}   
